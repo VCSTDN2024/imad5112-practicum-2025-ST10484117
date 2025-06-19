@@ -22,11 +22,11 @@ class DetailedViewActivity : AppCompatActivity() {
         displaySonglist(tvSongList)
 
         btnCalculateAverage.setOnClickListener{
-            calculateAndDisplayAverageRating()
+            calculateAndDisplayAverageRating()// calculate the average and display it
         }
 
         btnBackToMain.setOnClickListener{
-            finish()
+            finish()// return the user to previous screen
         }
     }
 
